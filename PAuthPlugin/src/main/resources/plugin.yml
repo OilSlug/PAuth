@@ -1,0 +1,14 @@
+name: PAauth
+version: 1.0.0
+author: OilSlug
+main: cc.oilslug,pauth.PAuth
+
+commands:
+  forceauth:
+  auth:
+
+permissions:
+  pauth.command.auth:
+    default: op
+  pauth.command.forceauth:
+    default: op
