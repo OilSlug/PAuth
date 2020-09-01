@@ -18,7 +18,6 @@ public class ClientListeners extends ListenerAdapter {
             if(args.length <= 1){
                 EmbedBuilder embedBuilder = new EmbedBuilder();
                 boolean inline = Bot.getInstance().getCommandManager().commands.size() > 3;
-                embedBuilder.setColor(0xff000000);
                 for(Command command : Bot.getInstance().getCommandManager().commands){
                     embedBuilder.addField(command.getCommand(), command.getDescription(), inline);
                 }
@@ -33,7 +32,6 @@ public class ClientListeners extends ListenerAdapter {
                 }
                 EmbedBuilder embedBuilder = new EmbedBuilder();
                 boolean inline = Bot.getInstance().getCommandManager().commands.size() > 3;
-                embedBuilder.setColor(0xff000000);
                 for(Command command : Bot.getInstance().getCommandManager().commands){
                     embedBuilder.addField(command.getCommand(), command.getDescription(), inline);
                 }

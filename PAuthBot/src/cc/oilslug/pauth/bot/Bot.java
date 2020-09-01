@@ -20,7 +20,7 @@ public class Bot {
 
         builder = new JDABuilder();
         builder.setToken(Settings.TOKEN);
-        builder.setActivity(Activity.watching("http://pauth.oilslug.cc/"));
+        builder.setActivity(Activity.watching("http://discord.oilslug.cc/"));
 
         builder.addEventListeners(new ClientListeners());
 
